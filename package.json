@@ -1,0 +1,26 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A chat application in Node JS, which uses MongoDB, Mongoose and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "MongoDB",
+    "Mongoose",
+    "Socket.io"
+  ],
+  "author": "Luis Rondon",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.14",
+    "socket.io": "^2.1.1"
+  }
+}

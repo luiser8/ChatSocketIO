@@ -1,0 +1,10 @@
+				<% for (var i = 0; i < chats.length; i++){ %>
+					<div class='card'>
+				<div class='card-header'>
+					<h5><%= chats[i].name %></h5>
+				</div>
+				<div class='card-body'>
+					<span><%= chats[i].chat %></li><span>
+					<a class='float-sm-right' href='/delete?id=<%= chats[i]._id %>'><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<% } %>
